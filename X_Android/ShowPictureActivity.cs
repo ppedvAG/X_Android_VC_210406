@@ -65,8 +65,8 @@ namespace X_Android
             ProgressDialog progressDialog = new ProgressDialog(this);
             progressDialog.SetMessage("Downloading Picture...");
 
-            //Img_Content.Visibility = ViewStates.Gone;
-            //PrB_LoadingPicture.Visibility = ViewStates.Visible;
+            Img_Content.Visibility = ViewStates.Gone;
+            PrB_LoadingPicture.Visibility = ViewStates.Visible;
 
             //Öffnen des WebClients
             using (WebClient client = new WebClient())

@@ -41,5 +41,11 @@ wieder.-->
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/activity_main_Btn_ShowPicture_Text"/>
-
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_main_Btn_Todo"
+        android:text="Goto Todos"/>
+        
 </LinearLayout>
